@@ -34,7 +34,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   late final ManagerPlayer manageMusic;
   late Music currentMusic;
-  late String musicDuration;
 
   @override
   void initState() {
@@ -127,7 +126,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   height: 10,
                 ),
-                Text(""),
               ]),
             ],
           ),
